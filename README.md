@@ -50,7 +50,7 @@ run*.csv
 
 The Custom GPT:
 1. Loads two Knowledge CSVs (combat + bosses).
-2. **Picks rows where `route ∈ {"gpt-image","dalle"}`** (skips `comfyui`).
+2. **Picks rows where `route ∈ {"comfyui"}`** 
 3. **Renders each sprite individually** (one subject only).
 4. Runs QC at 512×512:
    - alpha-only background,
